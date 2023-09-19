@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+int x,y,z,ans;
+cout<<"enter the amount of 5 Rs coins :";
+cin>>x;
+cout<<"enter the amount of 10 Rs coins :";
+cin>>y;
+cout<<"enter the cost of chocolate:";
+cin>>z;
+ans=((x*5+y*10)/z);
+cout<<ans<<" chocolates can be bought.";
+}
