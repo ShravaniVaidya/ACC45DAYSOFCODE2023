@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,y,z;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>x>>y;
+	    int s=0;
+	    z=x/y;
+	    s=x;
+	    z=z+(s%y);
+	    cout<<z<<endl;
+	}
+	return 0;
+}
